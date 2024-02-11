@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
 const NewEntry = ({ categories, addEntry }) => {
@@ -45,7 +45,7 @@ const NewEntry = ({ categories, addEntry }) => {
           </div>
         </div>
         <div className="control">
-          <button className="button is-link" onClick={(e)=> e.currentTarget.disabled = true}>Create Entry</button>
+          <button className="button is-link" >Create Entry</button>
         </div>
       </form>
     </div>

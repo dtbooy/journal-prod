@@ -36,7 +36,7 @@ const App = () => {
     };
     // POST to API
     try {
-    const res = await fetch("https://journal-api-8d80.onrender.com/entries", {
+    const res = await fetch("https://journal-api-8d80.onrender.com/entries/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
